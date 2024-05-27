@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SpaceT</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <link rel="icon" type="image/png" href="../static/images/logo.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="../static/script/email.js"></script>
+
+
+</head>
+<body>
+
+
+
+<div class="container1">
+
+    <div id="header"></div>
+
+    <p class="text1">Odkryj Nowe Doświadczenia, Eksplorując Kosmos</p>
+    <p class="text2">Jesteśmy pierwszą firmą na świecie, która akceptuje wycieczki w kosmos z wieloma miejscami docelowymi</p>
+    <p class="text3">Podróże kosmiczne to przygoda niepodobna do żadnej innej i przemawia do tych, którzy szukają ekscytacji i dreszczyku emocji. Pomysł wystrzelenia w kosmos i doświadczenia stanu nieważkości przy zerowej grawitacji jest ekscytujący. Cóż, usiądź wygodnie i zrelaksuj się, ponieważ zapewnimy Ci doświadczenie naprawdę nie z tego świata! </p>
+
+</div>
+
+<div class="container2">
+    <p class="text4">SUBSKRYBUJ NASZ NEWSLETTER</p>
+
+    <div class="subscribeForm" >
+        <form id="subscribeForm" action="http://localhost:8081/subscribe" method="post">
+            <input class="email" type="email" id="email" name="email" placeholder="E-mail"
+                   onfocus="if(this.placeholder==='E-mail'){this.placeholder=''}"
+                   onblur="if(this.placeholder===''){this.placeholder='E-mail'}">
+            <button class="submit" type="submit">SUBSKRYBUJ</button>
+
+        </form>
+    </div>
+
+    <div id="subscribeMessage" style="display: none; width: 300px; height: 46px; left: 700px; top: 35%; font-family: 'Noto Sans Hebrew', serif; font-size: 16px; color: #FFFFFF;">
+        <p>Subskrypcja zakończyła się sukcesem!</p>
+    </div>
+</div>
+
+<div class="container3">
+
+    <div class="textbottom">
+        <p class="text5">...Czy Jesteś Na To Gotowy?</p>
+        <p class="text6">Odkrywanie Nieznanego: <br>
+            Przestrzeń kosmiczna jest ostateczną granicą, a jej eksploracja może zapewnić bogactwo nowej wiedzy i odkryć. Odwiedzanie innych planet i księżyców może ujawnić zjawiska geologiczne i atmosferyczne, które nie przypominają niczego na Ziemi.</p>
+        <p class="text7">Piękno Przestrzeni Kosmicznej: <br>
+            Nie można zaprzeczyć, że przestrzeń kosmiczna jest zapierająca dech w piersiach. Podróżowanie przez galaktykę, oglądanie gwiazd z bliska i spoglądanie na Ziemię z daleka może być inspirującym doświadczeniem. Oszałamiające widoki i naturalne zjawiska w kosmosie mogą stworzyć niezapomniane wspomnienia i zapewnić nowe spojrzenie na nasze miejsce we wszechświecie.</p>
+        <p class="text8">Inspirujące: <br>
+            Podróże kosmiczne zainspirowały niezliczone rzesze ludzi do snucia wielkich marzeń, kontynuowania kariery naukowej i inżynierskiej oraz przesuwania granic tego, co możliwe. Oferując większej liczbie osób szansę na doświadczenie podróży kosmicznych, możemy zainspirować nowe pokolenie naukowców, inżynierów i odkrywców do dalszego przesuwania granic ludzkiej wiedzy i osiągnięć.</p>
+    </div>
+
+</div>
+
+
+<div id="footer"></div>
+
+<script src="../static/script/headerANDfooter.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Returning</title>
+        <link rel="stylesheet" type="text/css" href="../static/css/return.css">
+        <link rel="icon" type="image/png" href="../static/images/logo.png">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <div id="header"></div>
+
+       <div class="content">
+
+            <p class="text-returning">Przykro nam, że zwracasz bilet, mamy nadzieję, że wkrótce do nas wrócisz.<br><br>
+                Aby zrealizować bilet, wystarczy wprowadzić unikalny token:</p>
+
+            <form action="/returned" method="post" class="form">
+                <input class="token" type="text" name="token" placeholder="Token"
+                       onfocus="if(this.placeholder==='Token'){this.placeholder=''}"
+                       onblur="if(this.placeholder===''){this.placeholder='Token'}">
+                <button class="submit" type="submit">ZWROT</button>
+            </form>
+       </div>
+
+        <div id="footer"></div>
+
+        <script src="../static/script/headerANDfooter.js"></script>
+
+    </body>
+</html>
